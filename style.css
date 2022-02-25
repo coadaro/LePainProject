@@ -1,0 +1,35 @@
+/* importing google font */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+
+body {
+    font-family: 'IM Fell French Canon', serif;
+}
+
+#showcase {
+    /* bgi */
+    background-image: url(images/header.jpg);
+    height: 95vh;
+    /* bgs */
+    background-size: cover;
+    /* bgp */
+    background-position: center;
+}
+
+/* media queries */
+@media (min-width: 992px){
+    .card-text{
+        height: 110px;
+    }
+}
+
+@media (min-width: 1200px){
+    .card-text{
+        height: 90px;
+    }
+}
+
+@media (min-width: 1400px){
+    .card-text{
+        height: 70px;
+    }
+}
